@@ -6,5 +6,5 @@ import lombok.Data;
 public class Education {
     String school;
     String faculty;
-    Double gpa ;
+    Double gpa;
 }

@@ -4,9 +4,9 @@ import lombok.Data;
 
 @Data
 public class UserInfo {
-    String name ;
+    String name;
     String email;
-    String mobile ;
-    String githubUrl ;
+    String mobile;
+    String githubUrl;
     String linkedinUrl;
 }

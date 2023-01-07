@@ -14,12 +14,14 @@ public class AccountController {
 
 
     @PostMapping(path = "/user/login")
-    public ResponseEntity<?> login(@RequestBody @Valid LoginInfo loginInfo){
-        return null ;
+    public ResponseEntity<?> login(@RequestBody @Valid LoginInfo loginInfo) {
+        return null;
     }
 
+
     @PostMapping(path = "/user/register")
-    public ResponseEntity<?> register(@RequestBody @Valid RegisterInfo registerInfo){
-        return  null;
+    public ResponseEntity<?> register(@RequestBody @Valid RegisterInfo registerInfo) {
+        return null;
     }
+
 }

@@ -18,9 +18,9 @@ public class Resume {
     @NotNull
     Integer userId;
     UserInfo userInfo;
-    Summary summary ;
-    List<JobExperience> jobExperience ;
-    List<Education> education ;
+    Summary summary;
+    List<JobExperience> jobExperience;
+    List<Education> education;
     List<Skill> skill;
 
     public static void main(String[] args) throws JsonProcessingException {

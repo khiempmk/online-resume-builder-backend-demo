@@ -8,7 +8,7 @@ import java.util.Date;
 public class JobExperience {
     String jobTitle;
     String company;
-    Date startDate ;
-    Date endDate ;
-    String jobDescription ;
+    Date startDate;
+    Date endDate;
+    String jobDescription;
 }
